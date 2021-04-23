@@ -1,1 +1,1 @@
-﻿dotnet publish -p:PublishProfile=InjectHelloWorldConsole/InjectHelloWorldConsole.csproj -c:Release -o:Publish\bin\64bit -v:m -r:win-x64 --self-contained:false -p:PublishSingleFile=false
+﻿dotnet publish -p:PublishProfile=InjectHelloWorldConsole/InjectHelloWorldConsole.csproj -c:Release -o:Publish -v:m -r:win-x64 --self-contained:false -p:PublishSingleFile=false
